@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import argparse
 import os
 
@@ -5,7 +7,7 @@ def main(args):
   print(args)
 
 def parse_args():
-  argparse.ArgumentParser(
+  parser = argparse.ArgumentParser(
 	  prog="MyProg",
 	  description="Some description"
   )
